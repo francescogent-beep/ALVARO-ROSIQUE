@@ -1,0 +1,10 @@
+{
+  "name": "Álvaro Rosique Fisioterapia y Osteopatía",
+  "short_name": "Álvaro Rosique",
+  "description": "Clínica de fisioterapia y osteopatía en Cartagena. Álvaro Rosique es un profesional con amplia experiencia en tratamientos de rodilla, cervicales y recuperación de lesiones.",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#2563eb",
+  "background_color": "#ffffff",
+  "requestFramePermissions": []
+}
