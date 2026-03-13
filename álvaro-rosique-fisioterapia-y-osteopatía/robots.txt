@@ -1,5 +1,0 @@
-
-User-agent: *
-Allow: /
-
-Sitemap: https://osteopatiavelazquez.es/sitemap.xml
