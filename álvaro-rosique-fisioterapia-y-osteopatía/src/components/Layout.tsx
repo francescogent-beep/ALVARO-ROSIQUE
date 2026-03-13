@@ -77,13 +77,13 @@ const Layout: React.FC = () => {
       <header className="bg-white/80 backdrop-blur-3xl border-b border-slate-100 sticky top-0 z-50">
         <Container>
           <div className="flex justify-between items-center h-20 lg:h-28">
-            <Link to="/" className="flex flex-col group py-4">
-              <span className="text-[15px] text-blue-600 font-black uppercase tracking-luxury mb-0.5">
-                {SITE_DATA.tagline}
-              </span>
-              <span className="text-[20px] font-black text-brand-950 leading-tight brand-logo group-hover:text-brand-600 transition-colors">
-                {SITE_DATA.clinicName}
-              </span>
+            <Link to="/" className="flex items-center group py-2">
+              <img 
+                src={SITE_DATA.logo} 
+                alt={SITE_DATA.clinicName} 
+                className="h-12 lg:h-16 w-auto object-contain transition-opacity group-hover:opacity-80"
+                referrerPolicy="no-referrer"
+              />
             </Link>
  
             {/* Desktop Nav */}
@@ -179,7 +179,14 @@ const Layout: React.FC = () => {
         <Container>
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-12 md:gap-24 mb-16 md:mb-24">
             <div>
-              <h3 className="text-2xl md:text-3xl font-black text-white mb-6 brand-logo uppercase">{SITE_DATA.clinicName}</h3>
+              <Link to="/" className="inline-block mb-8">
+                <img 
+                  src={SITE_DATA.logo} 
+                  alt={SITE_DATA.clinicName} 
+                  className="h-16 md:h-20 w-auto object-contain brightness-0 invert"
+                  referrerPolicy="no-referrer"
+                />
+              </Link>
               <p className="text-slate-400 font-light leading-relaxed mb-8 text-base md:text-lg xl:text-xl avenir-minimal">{SITE_DATA.description}</p>
               <div className="flex space-x-8 text-[9px] md:text-[10px] font-extrabold uppercase tracking-luxury">
                 {SITE_DATA.socials.map((s) => (
