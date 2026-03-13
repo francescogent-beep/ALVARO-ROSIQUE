@@ -1,5 +1,5 @@
 clinicName: "Alvaro Rosique",
-  logo: "/images/AR-Logo.png",
+  logo: "AR-Logo.png",
   tagline: "fisioterapia y osteopatía",
   legalName: "Álvaro Rosique Fisioterapia y Osteopatía",
   description: "Tu fisioterapeuta y osteópata en el centro de Cartagena. Álvaro Rosique te ayuda a eliminar el dolor y recuperar tu movilidad con un trato cercano y profesional.",
