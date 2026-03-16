@@ -45,7 +45,7 @@ const About: React.FC = () => {
             <div className="relative animate-in fade-in slide-in-from-right duration-1000">
               <div className="rounded-[4rem] md:rounded-[8rem] overflow-hidden border border-slate-100 shadow-3xl relative z-10 aspect-[4/5]">
                 <img 
-                  src="https://i.imgur.com/XMB80cs.png" 
+                  src="https://i.imgur.com/AHQPsiD.png" 
                   alt="Álvaro Rosique - Fisioterapeuta y Osteópata" 
                   className="w-full h-full object-cover grayscale-[0.1] hover:grayscale-0 transition-all duration-1000 scale-105"
                 />
