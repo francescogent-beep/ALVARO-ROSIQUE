@@ -113,7 +113,7 @@ const Home: React.FC = () => {
       <section className="relative min-h-[80vh] lg:min-h-[90vh] flex items-center overflow-hidden bg-white">
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://i.imgur.com/XMB80cs.png" 
+            src="https://i.imgur.com/xBmbqUp.png" 
             alt="Álvaro Rosique Fisioterapia y Osteopatía" 
             className="w-full h-full object-cover grayscale-[0.1] opacity-90 scale-105"
           />
